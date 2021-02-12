@@ -1,0 +1,61 @@
+[2021-02-10 15:32:23,083]                  main.py             INFO:  importing was successful                                              
+[2021-02-10 15:32:23,093]                parser.py             INFO:  __init__MainParser                                                    
+[2021-02-10 15:32:23,093]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-02-10 15:32:23,093]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-02-10 15:32:24,253]                  main.py             INFO:  Before while LOOP                                                     
+[2021-02-10 15:32:24,524]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-02-10 15:32:25,706]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-02-10 15:32:25,707]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-02-10 15:32:35,388]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:32:38,491]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-02-10 15:32:38,491]                  main.py            ERROR:  575704682, FBICIAIIA, HESOYAM, HE IS THE FIRST                        
+[2021-02-10 15:32:41,473]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:32:41,474]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-02-10 15:32:42,658]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-02-10 15:32:47,578]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:32:53,754]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:32:59,846]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:05,943]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:12,028]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:14,173]                  main.py          WARNING:  575704682, FBICIAIIA, HESOYAM: было доставлен пак                     
+[2021-02-10 15:33:18,191]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:24,298]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:25,009]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'hi'                               
+[2021-02-10 15:33:30,381]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:36,493]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:42,621]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:48,710]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:33:54,816]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:00,926]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:06,969]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:13,040]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:19,102]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:25,141]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:31,158]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:37,126]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:43,167]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:49,172]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:34:55,126]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:01,164]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:07,143]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:13,097]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:19,115]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:25,142]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:31,185]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:37,216]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:43,223]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:49,268]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:35:55,328]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:01,362]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:07,478]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:13,488]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:19,484]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:25,488]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:31,532]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:37,618]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:43,605]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:49,672]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:36:55,731]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:37:01,820]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-10 15:37:06,647]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-02-10 15:37:06,647]              executor.py          WARNING:  Goodbye!                                                              
