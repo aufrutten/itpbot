@@ -1,0 +1,15 @@
+[2021-02-13 14:24:39,474]                  main.py             INFO:  importing was successful                                              
+[2021-02-13 14:24:39,493]                parser.py             INFO:  __init__MainParser                                                    
+[2021-02-13 14:24:39,493]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-02-13 14:24:39,493]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-02-13 14:24:40,667]                  main.py             INFO:  Before while LOOP                                                     
+[2021-02-13 14:24:40,985]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-02-13 14:24:42,265]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-02-13 14:24:42,265]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-02-13 14:24:51,717]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-02-13 14:24:51,721]                  main.py          WARNING:  sending post 575704682                                                
+[2021-02-13 14:24:52,585]                  main.py          WARNING:  sending post 572317802                                                
+[2021-02-13 14:24:52,720]                  main.py             INFO:  Dispatch completed                                                    
+[2021-02-13 14:33:14,159]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-02-13 14:34:23,104]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-02-13 14:34:23,105]              executor.py          WARNING:  Goodbye!                                                              
