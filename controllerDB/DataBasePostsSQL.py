@@ -27,7 +27,7 @@ class SQLPost:
 
     def add_post(self, index, content, comment, date=datetime.today()):
         text = "INSERT INTO Posts ('index', 'content', 'comment', 'date') VALUES(?,?,?,?)"
-        values = (index, content, comment, date)
+        values = (index, content, comment, date[:-6])
         with self.connection:
             try:
                 self.cursor.execute(text, values)
