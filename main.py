@@ -125,12 +125,9 @@ async def subscription(message: types.Message):
                 except:
 
                     if len(comment) >= 290:
-                        comment = comment[:286] + '...'
+                        await bot.send_photo(id_mem, content)
+                        await bot.send_message(id_mem, comment)
 
-                    comment = """{}\nДата публикации: {}""".format(comment, date)
-
-                    if content != ' ':
-                        await bot.send_photo(id_mem, content, comment)
                     else:
                         await bot.send_message(id_mem, comment)
 
@@ -171,7 +168,11 @@ async def main_loop(sleep_for):
             for id_W in db.getAllMembersStatusTrue():
                 logging.warning(f'sending post {id_W}')
 
-                if photo != ' ':
+                if len(comment) >= 290:
+                    await bot.send_photo(id_W, photo)
+                    await bot.send_message(id_W, comment)
+
+                elif photo != ' ':
                     await bot.send_photo(id_W, photo, comment)
                 elif photo == ' ':
                     await bot.send_message(id_W, comment)
