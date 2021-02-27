@@ -162,7 +162,7 @@ class MainParser(DataBase_For_Parser, Common_Metod):
         logging.info('__init__MainParser')
         DataBase_For_Parser.__init__(self)
         Common_Metod.__init__(self)
-        self.black_list = DataBasePostsSQL.SQLBlackList('DATABASE/blackList.db')
+        self.black_list = DataBasePostsSQL.SQLBlackList('DATABASE/blackList.sqlite')
 
     def comparison_index_in_file(self):
         index_in_file = self.reader_file_from_filename()

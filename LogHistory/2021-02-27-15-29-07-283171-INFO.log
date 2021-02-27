@@ -1,0 +1,18 @@
+[2021-02-27 15:29:08,104]                  main.py             INFO:  importing was successful                                              
+[2021-02-27 15:29:08,126]                parser.py             INFO:  __init__MainParser                                                    
+[2021-02-27 15:29:08,126]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-02-27 15:29:08,126]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-02-27 15:29:09,358]                  main.py             INFO:  Before while LOOP                                                     
+[2021-02-27 15:29:09,649]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-02-27 15:29:09,905]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-02-27 15:29:09,905]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-02-27 15:29:10,100]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-02-27 15:29:10,101]                  main.py            ERROR:  575704682, FBICIAIIA, HESOYAM, HE IS THE FIRST                        
+[2021-02-27 15:29:15,034]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-02-27 15:29:16,239]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-02-27 15:29:16,242]                  main.py          WARNING:  575704682, FBICIAIIA, HESOYAM: было доставлен пак                     
+[2021-02-27 15:29:20,539]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-02-27 15:29:20,540]                  main.py          WARNING:  sending post 575704682                                                
+[2021-02-27 15:29:20,703]                  main.py             INFO:  Dispatch completed                                                    
+[2021-02-27 15:30:00,193]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-02-27 15:30:00,194]              executor.py          WARNING:  Goodbye!                                                              
