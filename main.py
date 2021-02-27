@@ -1,22 +1,3 @@
-"""
-
-(Problems)_
-______________ ->
-1) Problems with "news" when bot send posts
-2) Problems with display comment
-
-
-
-
-
-
-(What i'll should do)
-______________ ->
-
-1)  Make logging bot, to track errors and bugs
-2)  команда по выдаче файла с HTML
-
-"""
 print(f'Starting {__file__}')
 
 from configuration import config, keyboards
@@ -135,7 +116,7 @@ async def subscription(message: types.Message):
             for post in posts:
                 _, content, comment, date = post
 
-                comment = """{}\nDate: {}""".format(comment, date)
+                comment = """{}\nДата публикации: {}""".format(comment, date)
                 try:
                     if content != ' ':
                         await bot.send_photo(id_mem, content, comment)
@@ -146,7 +127,7 @@ async def subscription(message: types.Message):
                     if len(comment) >= 290:
                         comment = comment[:286] + '...'
 
-                    comment = """{}\nDate: {}""".format(comment, date)
+                    comment = """{}\nДата публикации: {}""".format(comment, date)
 
                     if content != ' ':
                         await bot.send_photo(id_mem, content, comment)
@@ -158,17 +139,19 @@ async def subscription(message: types.Message):
             logging.warning(f'{id_mem}, {message.from_user.username}, {message.from_user.first_name}: было доставлен пак')
     else:
         text = '[{}] id: {} name: {} msg: \'{}\'\n'.format(datetime.today(),
-                                                               id_mem,
-                                                               message.from_user.username,
-                                                               message.text)
+                                                           id_mem,
+                                                           message.from_user.username,
+                                                           message.text)
         try:
             with open('file_message.txt', 'a') as f:
                 f.write(text)
                 f.close()
+
         except:
             with open('file_message.txt', 'w') as f:
                 f.write(text)
                 f.close()
+
         await bot.send_message(id_mem, 'Проблемы ебать?!... Пиши сюда сука! - @FBICIAIIA')
 
 
