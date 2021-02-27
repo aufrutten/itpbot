@@ -20,8 +20,8 @@ logging.info('importing was successful')
 bot = Bot(config.TOKEN)
 ds = Dispatcher(bot)
 
-db = controllerDB.SQLBase.SQLiter('./DATABASE/members.db')
-db_Posts = controllerDB.DataBasePostsSQL.SQLPost('./DATABASE/POSTS_DATA.db')
+db = controllerDB.SQLBase.SQLiter('./DATABASE/members.sqlite')
+db_Posts = controllerDB.DataBasePostsSQL.SQLPost('./DATABASE/POSTS_DATA.sqlite')
 
 pars = parserFolder.MainParser()
 
