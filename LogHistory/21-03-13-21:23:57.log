@@ -1,0 +1,96 @@
+[2021-03-13 21:23:57,973]                  main.py             INFO:  importing was successful                                              
+[2021-03-13 21:23:57,982]                parser.py             INFO:  __init__MainParser                                                    
+[2021-03-13 21:23:57,982]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-03-13 21:23:57,983]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-03-13 21:23:59,375]                  main.py             INFO:  Before while LOOP                                                     
+[2021-03-13 21:23:59,995]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-03-13 21:24:01,435]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-03-13 21:24:01,435]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-03-13 21:24:11,685]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-13 21:24:11,687]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-13 21:24:12,420]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-13 21:32:33,778]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 21:40:54,986]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 21:49:16,269]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 21:57:37,370]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 22:05:59,852]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 22:14:21,062]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-13 22:22:43,074]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-14 00:59:52,357]           base_events.py            ERROR:  Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main_loop() done, defined at /Users/ihorsemykopenko/Desktop/ITPEDIA/main.py:155> exception=ConnectionError(MaxRetryError("HTTPSConnectionPool(host='vk.com', port=443): Max retries exceeded with url: /itpedia_youtube?user-agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+11_1_0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29%0A+Chrome%2F88.0.4324.96+Safari%2F537.36&accept-language=ru-RU (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd45aa28640>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"))>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd45aa28640>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='vk.com', port=443): Max retries exceeded with url: /itpedia_youtube?user-agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+11_1_0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29%0A+Chrome%2F88.0.4324.96+Safari%2F537.36&accept-language=ru-RU (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd45aa28640>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ihorsemykopenko/Desktop/ITPEDIA/main.py", line 159, in main_loop
+    if pars.comparison_index_in_file():
+  File "/Users/ihorsemykopenko/Desktop/ITPEDIA/parserFolder/parser.py", line 169, in comparison_index_in_file
+    self.update_html()
+  File "/Users/ihorsemykopenko/Desktop/ITPEDIA/parserFolder/parser.py", line 92, in update_html
+    api = requests.get(self.url, config.headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='vk.com', port=443): Max retries exceeded with url: /itpedia_youtube?user-agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+11_1_0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29%0A+Chrome%2F88.0.4324.96+Safari%2F537.36&accept-language=ru-RU (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd45aa28640>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+[2021-03-14 12:30:47,384]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-14 12:44:42,052]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-03-14 12:44:42,053]              executor.py          WARNING:  Goodbye!                                                              

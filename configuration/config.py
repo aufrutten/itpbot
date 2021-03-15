@@ -28,14 +28,15 @@ directory()
 
 
 def gen_name():
-    t = str(datetime.today())
+    t = str(datetime.today())[2:-7]
     t = t.replace(' ', '-')
-    t = t.replace(':', '-')
     t = t.replace('.', '-')
+    t = t.replace(':', ':')
+    print(t)
     path = '/LogHistory/'
     lib_name = './' + path.split('/')[1] + '/'
-    pattern = '{}{}-{}.log'
-    return pattern.format(lib_name, t, 'INFO')
+    pattern = '{}{}.log'
+    return pattern.format(lib_name, t)
 
 
 config_logger = {
