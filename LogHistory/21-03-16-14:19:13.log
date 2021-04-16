@@ -1,0 +1,13 @@
+[2021-03-16 14:19:14,734]                  main.py             INFO:  importing was successful                                              
+[2021-03-16 14:19:14,750]                parser.py             INFO:  __init__MainParser                                                    
+[2021-03-16 14:19:14,750]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-03-16 14:19:14,750]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-03-16 14:19:15,562]                  main.py             INFO:  Before while LOOP                                                     
+[2021-03-16 14:19:15,723]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-03-16 14:19:16,873]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-03-16 14:19:16,874]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-03-16 14:19:26,290]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-16 14:19:26,293]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-16 14:19:27,013]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-16 17:13:15,659]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-03-16 17:13:15,659]              executor.py          WARNING:  Goodbye!                                                              

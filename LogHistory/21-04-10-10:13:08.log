@@ -1,0 +1,16 @@
+[2021-04-10 10:13:09,419]                  main.py             INFO:  importing was successful                                              
+[2021-04-10 10:13:09,441]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-10 10:13:09,441]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-10 10:13:09,442]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-04-10 10:13:10,559]                  main.py             INFO:  Before while LOOP                                                     
+[2021-04-10 10:13:10,727]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-04-10 10:13:11,942]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-04-10 10:13:11,943]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-04-10 10:13:21,533]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-10 10:13:21,536]                  main.py          WARNING:  sending post 575704682                                                
+[2021-04-10 10:13:22,192]                  main.py             INFO:  Dispatch completed                                                    
+[2021-04-10 10:13:53,959]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-04-10 10:14:01,502]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-10 10:19:04,744]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-04-10 10:20:04,826]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-04-10 10:20:04,828]              executor.py          WARNING:  Goodbye!                                                              

@@ -1,0 +1,40 @@
+[2021-03-17 12:55:22,121]                  main.py             INFO:  importing was successful                                              
+[2021-03-17 12:55:22,137]                parser.py             INFO:  __init__MainParser                                                    
+[2021-03-17 12:55:22,137]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-03-17 12:55:22,137]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-03-17 12:55:22,894]                  main.py             INFO:  Before while LOOP                                                     
+[2021-03-17 12:55:23,037]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-03-17 12:55:24,114]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-03-17 12:55:24,114]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-03-17 12:55:33,608]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-17 12:55:33,612]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-17 12:55:34,187]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-17 13:03:54,900]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-17 13:12:15,694]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-17 17:14:22,517]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-17 17:16:45,501]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-17 17:16:45,504]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-17 17:16:46,301]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-18 08:41:02,375]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-18 08:41:02,390]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-18 08:41:03,459]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-18 08:47:12,731]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-03-18 08:47:12,732]              executor.py          WARNING:  Goodbye!                                                              

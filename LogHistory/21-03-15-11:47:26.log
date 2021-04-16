@@ -1,0 +1,113 @@
+[2021-03-15 11:47:27,542]                  main.py             INFO:  importing was successful                                              
+[2021-03-15 11:47:27,570]                parser.py             INFO:  __init__MainParser                                                    
+[2021-03-15 11:47:27,570]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-03-15 11:47:27,570]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-03-15 11:47:28,437]                  main.py             INFO:  Before while LOOP                                                     
+[2021-03-15 11:47:28,577]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-03-15 11:47:29,653]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-03-15 11:47:29,653]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-03-15 11:47:39,220]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-15 11:47:39,223]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-15 11:47:40,163]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-15 11:56:00,953]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 12:04:21,787]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 12:22:06,780]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 13:17:26,347]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-15 13:17:26,355]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-15 13:17:27,341]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-15 13:36:59,609]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 13:54:44,465]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 14:50:04,010]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 14:50:25,188]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-15 15:12:45,337]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 15:56:23,480]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-15 15:56:23,489]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-15 15:56:24,726]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-15 16:51:43,858]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 17:42:21,616]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-15 17:42:21,632]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-15 17:42:22,174]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-15 18:14:12,154]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-03-15 18:14:12,157]                  main.py          WARNING:  sending post 575704682                                                
+[2021-03-15 18:14:13,722]                  main.py             INFO:  Dispatch completed                                                    
+[2021-03-15 18:31:58,199]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 18:54:47,372]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-15 19:22:35,564]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 19:38:54,014]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-15 20:16:29,098]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 359, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2021-03-15 20:22:12,881]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 21:17:32,181]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-03-15 22:27:29,797]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-03-15 22:27:29,800]              executor.py          WARNING:  Goodbye!                                                              
