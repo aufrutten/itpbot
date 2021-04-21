@@ -1,1 +1,2 @@
 [2021-03-01 10:37:46.734764] id: 575704682 name: FBICIAIIA msg: 'n'
+[2021-04-17 14:19:11.464449] id: 575704682 name: FBICIAIIA msg: '/get_status'

@@ -1,0 +1,17 @@
+[2021-04-17 11:16:26,906]                  main.py             INFO:  importing was successful                                              
+[2021-04-17 11:16:27,058]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-17 11:16:27,058]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-17 11:16:27,058]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-04-17 11:16:28,052]                  main.py             INFO:  Before while LOOP                                                     
+[2021-04-17 11:16:28,197]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-04-17 11:16:29,452]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-04-17 11:16:29,453]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-04-17 11:16:39,065]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-17 11:16:39,086]                  main.py             INFO:  Dispatch completed                                                    
+[2021-04-17 11:16:40,469]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-04-17 11:16:40,470]                  main.py            ERROR:  575704682, FBICIAIIA, Desoxyn, HE IS THE FIRST                        
+[2021-04-17 11:16:42,897]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-04-17 11:16:44,074]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-04-17 11:16:45,276]                  main.py          WARNING:  575704682, FBICIAIIA, Desoxyn: было доставлен пак                     
+[2021-04-17 11:21:12,218]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-04-17 11:21:12,219]              executor.py          WARNING:  Goodbye!                                                              

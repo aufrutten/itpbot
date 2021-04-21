@@ -1,0 +1,51 @@
+[2021-04-20 11:27:03,145]                  main.py             INFO:  importing was successful                                              
+[2021-04-20 11:27:03,196]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-20 11:27:03,196]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-20 11:27:03,196]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-04-20 11:27:04,306]                  main.py             INFO:  Before while LOOP                                                     
+[2021-04-20 11:27:04,457]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-04-20 11:27:04,541]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-04-20 11:27:04,541]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-04-20 11:27:04,619]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-20 11:27:15,417]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 11:27:16,758]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-20 11:27:17,756]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-20 11:29:01,701]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-04-20 11:35:36,505]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 11:43:57,618]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 11:44:07,139]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-04-20 11:44:11,541]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-04-20 11:44:14,336]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-20 11:44:23,829]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-04-20 11:44:25,331]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-04-20 11:44:26,418]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-04-20 11:44:31,509]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-04-20 11:44:33,431]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-04-20 11:44:34,514]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-04-20 11:44:48,712]                  main.py          WARNING:  575704682 FBICIAIIA unsubscribed                                      
+[2021-04-20 11:44:51,922]                  main.py          WARNING:  575704682 FBICIAIIA unsubscribed                                      
+[2021-04-20 11:44:59,362]                  main.py          WARNING:  575704682 FBICIAIIA unsubscribed                                      
+[2021-04-20 11:45:02,485]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-04-20 11:45:03,923]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-04-20 11:45:05,110]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-04-20 11:45:07,964]                  main.py          WARNING:  575704682, FBICIAIIA was joined                                       
+[2021-04-20 11:45:15,725]                  main.py          WARNING:  id: 575704682 name: FBICIAIIA msg: 'Подписаться! 👋'                   
+[2021-04-20 11:45:16,825]                  main.py          WARNING:  HE FBICIAIIA subscribed, 575704682                                    
+[2021-04-20 11:45:22,360]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-20 11:52:18,789]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:00:41,166]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:09:02,216]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:17:23,388]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:25:44,447]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:34:05,522]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:42:27,311]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:50:48,394]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 12:59:09,530]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 13:07:30,547]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-20 13:07:30,581]                  main.py          WARNING:  sending post 575704682                                                
+[2021-04-20 13:07:31,769]                  main.py          WARNING:  sending post 572317802                                                
+[2021-04-20 13:07:31,995]                  main.py             INFO:  Dispatch completed                                                    
+[2021-04-20 13:15:53,027]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 13:24:14,033]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 13:32:35,085]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 13:40:56,156]                  main.py             INFO:  LOOP ------------> False                                              

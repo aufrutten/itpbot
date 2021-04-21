@@ -1,0 +1,4 @@
+[2021-04-20 15:44:27,882]                  main.py             INFO:  importing was successful                                              
+[2021-04-20 15:44:27,932]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-20 15:44:27,932]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-20 15:44:27,933]                parser.py             INFO:  __init__ParserPublic                                                  

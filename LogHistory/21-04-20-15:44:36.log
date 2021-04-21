@@ -1,0 +1,158 @@
+[2021-04-20 15:44:37,688]                  main.py             INFO:  importing was successful                                              
+[2021-04-20 15:44:37,713]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-20 15:44:37,713]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-20 15:44:37,714]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-04-20 15:44:38,577]                  main.py             INFO:  Before while LOOP                                                     
+[2021-04-20 15:44:38,735]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-04-20 15:44:38,817]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-04-20 15:44:38,818]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-04-20 15:44:49,563]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 15:53:10,606]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:01:31,639]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:09:52,668]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:18:13,742]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:26:34,810]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-20 16:26:34,928]                  main.py          WARNING:  sending post 575704682                                                
+[2021-04-20 16:26:36,062]                  main.py          WARNING:  sending post 572317802                                                
+[2021-04-20 16:26:36,162]                  main.py             INFO:  Dispatch completed                                                    
+[2021-04-20 16:34:57,212]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:43:18,204]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 16:51:39,282]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:00:00,342]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:08:21,298]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:16:51,901]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:25:12,857]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:33:33,894]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:41:54,964]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:50:15,925]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 17:58:36,995]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:06:58,029]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:15:19,002]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:21:24,084]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/dispatcher/dispatcher.py", line 380, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/base.py", line 209, in request
+    proxy=self.proxy, proxy_auth=self.proxy_auth, timeout=self.timeout, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+[2021-04-20 18:21:24,159]           base_events.py            ERROR:  SSL error in data received
+protocol: <asyncio.sslproto.SSLProtocol object at 0xb0486a50>
+transport: <_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/sslproto.py", line 526, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/lib/python3.7/asyncio/sslproto.py", line 207, in feed_ssldata
+    self._sslobj.unwrap()
+  File "/usr/lib/python3.7/ssl.py", line 767, in unwrap
+    return self._sslobj.shutdown()
+ssl.SSLError: [SSL: KRB5_S_INIT] application data after close notify (_ssl.c:2609)
+[2021-04-20 18:23:40,044]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:32:01,075]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:40:22,186]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:47:20,083]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/dispatcher/dispatcher.py", line 380, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/base.py", line 209, in request
+    proxy=self.proxy, proxy_auth=self.proxy_auth, timeout=self.timeout, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+[2021-04-20 18:47:25,446]           base_events.py            ERROR:  SSL error in data received
+protocol: <asyncio.sslproto.SSLProtocol object at 0xb04d2a90>
+transport: <_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/sslproto.py", line 526, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/lib/python3.7/asyncio/sslproto.py", line 207, in feed_ssldata
+    self._sslobj.unwrap()
+  File "/usr/lib/python3.7/ssl.py", line 767, in unwrap
+    return self._sslobj.shutdown()
+ssl.SSLError: [SSL: KRB5_S_INIT] application data after close notify (_ssl.c:2609)
+[2021-04-20 18:48:43,194]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 18:57:04,173]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:05:25,179]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:13:46,159]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:22:07,147]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:30:28,188]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:38:49,250]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:47:10,233]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 19:55:31,322]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:03:52,362]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:12:13,393]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:20:34,443]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:28:55,527]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:37:16,524]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:45:37,504]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 20:53:58,626]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-20 20:53:58,652]                  main.py          WARNING:  sending post 575704682                                                
+[2021-04-20 20:54:00,021]                  main.py          WARNING:  sending post 572317802                                                
+[2021-04-20 20:54:00,104]                  main.py             INFO:  Dispatch completed                                                    
+[2021-04-20 21:02:21,194]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:10:42,855]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:19:03,934]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:27:24,926]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:35:45,906]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:44:06,994]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 21:52:28,287]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 22:00:49,197]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 22:09:10,179]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-20 22:17:31,148]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-04-20 22:17:31,179]                  main.py          WARNING:  sending post 575704682                                                
+[2021-04-20 22:17:31,341]           base_events.py            ERROR:  Task exception was never retrieved
+future: <Task finished coro=<main_loop() done, defined at main.py:155> exception=BadRequest("Wrong remote file identifier specified: can't unserialize it. wrong last symbol")>
+Traceback (most recent call last):
+  File "main.py", line 176, in main_loop
+    await bot.send_photo(id_W, photo, comment)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/bot.py", line 482, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/base.py", line 209, in request
+    proxy=self.proxy, proxy_auth=self.proxy_auth, timeout=self.timeout, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Wrong remote file identifier specified: can't unserialize it. wrong last symbol
+[2021-04-21 10:18:19,083]            dispatcher.py            ERROR:  Cause exception while getting updates.                                
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/dispatcher/dispatcher.py", line 380, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/base.py", line 209, in request
+    proxy=self.proxy, proxy_auth=self.proxy_auth, timeout=self.timeout, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    self._continue = None
+  File "/home/pi/.local/lib/python3.7/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError

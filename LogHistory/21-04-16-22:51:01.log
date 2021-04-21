@@ -1,0 +1,19 @@
+[2021-04-16 22:51:02,324]                  main.py             INFO:  importing was successful                                              
+[2021-04-16 22:51:02,349]                parser.py             INFO:  __init__MainParser                                                    
+[2021-04-16 22:51:02,349]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-04-16 22:51:02,349]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-04-16 22:51:03,246]                  main.py             INFO:  Before while LOOP                                                     
+[2021-04-16 22:51:03,486]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-04-16 22:51:03,573]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-04-16 22:51:03,573]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-04-16 22:51:03,659]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-16 22:51:06,380]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-16 22:51:07,828]                  main.py             INFO:  GETTING HELP                                                          
+[2021-04-16 22:51:14,321]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 22:59:35,355]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 23:07:56,317]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 23:16:17,414]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 23:24:38,384]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 23:32:59,476]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-04-16 23:38:47,049]            dispatcher.py             INFO:  Stop polling...                                                       
+[2021-04-16 23:38:47,050]              executor.py          WARNING:  Goodbye!                                                              
