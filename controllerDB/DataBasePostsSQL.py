@@ -10,7 +10,8 @@ class SQLPost:
         if not exists(database):
             self.connection = sqlite3.connect(database)
             self.cursor = self.connection.cursor()
-            text = """CREATE TABLE "Posts" (
+            text = """
+            CREATE TABLE "Posts" (
             "index"	INTEGER NOT NULL UNIQUE,
             "content"	TEXT,
             "comment"	TEXT,
