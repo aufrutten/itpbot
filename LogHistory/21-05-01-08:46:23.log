@@ -1,0 +1,48 @@
+[2021-05-01 08:46:25,138]                  main.py             INFO:  importing was successful                                              
+[2021-05-01 08:46:25,160]                parser.py             INFO:  __init__MainParser                                                    
+[2021-05-01 08:46:25,161]                parser.py             INFO:  __init__DataBaseForParser                                             
+[2021-05-01 08:46:25,161]                parser.py             INFO:  __init__ParserPublic                                                  
+[2021-05-01 08:46:26,224]                  main.py             INFO:  Before while LOOP                                                     
+[2021-05-01 08:46:26,378]              executor.py             INFO:  Bot: На приеме у Шевцова [@Na_priyeme_u_Shevtsova_bot]                
+[2021-05-01 08:46:27,461]              executor.py          WARNING:  Updates were skipped successfully.                                    
+[2021-05-01 08:46:27,462]            dispatcher.py             INFO:  Start polling.                                                        
+[2021-05-01 08:46:37,305]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-05-01 08:46:37,717]                  main.py          WARNING:  sending post 575704682                                                
+[2021-05-01 08:46:38,355]                  main.py          WARNING:  sending post 572317802                                                
+[2021-05-01 08:46:38,461]                  main.py             INFO:  Dispatch completed                                                    
+[2021-05-01 08:47:42,433]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:43,560]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:44,583]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:46,302]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:47,824]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:48,518]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:50,890]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:52,751]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:53,533]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:54,222]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:54,942]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:55,518]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:56,082]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:56,683]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:57,223]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:57,715]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:58,258]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:47:58,823]                  main.py         CRITICAL:  575704682 FBICIAIIA get stat                                          
+[2021-05-01 08:54:59,460]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:03:20,373]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:11:41,328]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:20:02,248]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:28:23,225]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:36:44,128]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:45:05,081]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 09:53:26,009]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:01:46,987]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:10:07,976]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:18:28,946]                  main.py             INFO:  LOOP ------------> True                                               
+[2021-05-01 10:18:28,971]                  main.py          WARNING:  sending post 575704682                                                
+[2021-05-01 10:18:29,918]                  main.py          WARNING:  sending post 572317802                                                
+[2021-05-01 10:18:30,010]                  main.py             INFO:  Dispatch completed                                                    
+[2021-05-01 10:26:50,979]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:35:11,922]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:43:32,910]                  main.py             INFO:  LOOP ------------> False                                              
+[2021-05-01 10:51:53,899]                  main.py             INFO:  LOOP ------------> False                                              
